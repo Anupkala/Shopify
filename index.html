@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customised chocolate pack</title>
+    <link rel="stylesheet" type="text/css" href="shopify.css">
+</head>
+<body>
+    <h1>Customise your Chocolate Pack</h1>
+    <!-- this div is sticked to one postion to show number of items selected -->
+    <div id="items-selected">ITEMS = 0</div>
+   
+    <!-- div showing the available chocolates to select-->
+    <div id="chocolates">
+       
+        <label>
+            <!-- input tag for checkbox so that we can select items with that a custom attribute "price" for price of chocolates -->
+            <input type="checkbox" class="chocolate" price="10">   
+            Cadbury plain - RS.10     
+            <div>
+                <img  src="https://www.bigbasket.com/media/uploads/p/l/40075989-2_42-cadbury-dairy-milk-chocolate.jpg">
+
+            </div>
+            
+        </label>
+       
+        <label>
+            <input type="checkbox" class="chocolate" price="60"> Snickers - RS.60
+            <div>
+                <img  src="https://www.jiomart.com/images/product/original/490000493/snickers-peanut-chocolate-45-g-product-images-o490000493-p490000493-0-202212052010.jpg?im=Resize=(1000,1000)">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="20"> Cadbury 5 star - RS.20
+            <div>
+                <img  src="https://m.media-amazon.com/images/I/51cAZBMYMAL.jpg">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="40"> Cadbury Fuse - RS.40
+            <div>
+                <img  src="https://m.media-amazon.com/images/I/61W+j2ayl6L.jpg">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="30"> Cadbury Crispello -  RS.30
+            <div>
+                <img  src="https://m.media-amazon.com/images/I/61i6X8Cs9EL.jpg">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="150"> Cadbury Silk- RS.150
+            <div>
+                <img  src="https://www.jiomart.com/images/product/original/490659553/cadbury-dairy-milk-silk-chocolate-60-g-product-images-o490659553-p490659553-0-202306011447.jpg?im=Resize=(420,420)">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="200"> Cadbury Silk Oreo- RS.200
+            <div>
+                <img  src="https://www.jiomart.com/images/product/original/491317355/cadbury-dairy-milk-silk-oreo-chocolate-60-g-product-images-o491317355-p491317355-0-202306131309.jpg?im=Resize=(420,420)">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="110"> Dark chocolate - RS.110
+            <div>
+                <img src="https://m.media-amazon.com/images/I/81EAqP0D0+L.jpg">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="200"> Amul fruit&Nut- RS.200
+            <div>
+                <img  src="https://m.media-amazon.com/images/I/81lJPzUIIcL.jpg">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="50"> KitKat - RS.50
+            <div>
+                <img  src="https://m.media-amazon.com/images/I/71-8WV3XroL.jpg">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="10"> Nestle Munch- RS.10
+            <div>
+                <img  src="https://5.imimg.com/data5/SELLER/Default/2021/12/OL/EH/TG/142209958/nestle-munch-chocolate-box-500x500.jpg">
+
+            </div>
+        </label>
+        <label>
+            <input type="checkbox" class="chocolate" price="10">   
+            Milky Bar - RS.10     
+            <div>
+                <img  src="https://www.jiomart.com/images/product/original/491237725/nestle-milkybar-chocolate-25-g-product-images-o491237725-p590110062-0-202307131153.jpg?im=Resize=(1000,1000)">
+
+            </div>
+            
+        </label>
+
+    </div>
+  <!-- ordered list to display the selected chocolates -->
+    <h2 id="list-heading">CUSTOMISED PACK OF CHOCOLATE CONTAINS :</h2>
+    <ol id="selected">
+
+    </ol>
+<!-- h2 tag to display total price -->
+    <h2 >TOTAL PRICE = <span id="total-price">RS 0</span></h2>
+
+    <script src="shopify.js"></script>
+</body>
+</html>
